@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/my_border_popup"
+    android:id="@+id/popu">
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadgefotosocio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/usuario_256" />
+
+    <TextView
+        android:id="@+id/textViewNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Alfredo Perez"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textViewCedulaSocio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:layout_marginTop="17dp"
+        android:text="18.256.423"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnOkpopuEventualidad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="36dp"
+        android:background="#2b7dbc"
+        android:text="Ok"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.ucla.america.MainActivity"/>
+      <point      
+        x = "480"      
+        y = "84"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.ucla.america.MainActivity"/>
+      <point      
+        x = "1760"      
+        y = "84"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.ucla.america.HomeActivity"/>
+      <point      
+        x = "472"      
+        y = "1544"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.ucla.america.HomeActivity"/>
+      <point      
+        x = "1744"      
+        y = "1544"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.ucla.america.Modificacion_Perfil_Usuario"/>
+      <point      
+        x = "2486"      
+        y = "85"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.ucla.america.Modificacion_Perfil_Usuario"/>
+      <point      
+        x = "3749"      
+        y = "85"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

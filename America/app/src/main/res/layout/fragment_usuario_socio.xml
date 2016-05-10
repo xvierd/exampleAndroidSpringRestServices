@@ -1,0 +1,107 @@
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" tools:context="com.ucla.america.UsuarioSocio"
+        android:clickable="false"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <!-- TODO: Update blank fragment layout -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="left|top" />
+
+            <LinearLayout
+                android:layout_width="378dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                    <ImageView
+                        android:id="@+id/imgPerfiUsuario"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/perfil"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="90dp"
+                        android:id="@+id/NotificacionesUsuario"
+                        android:textSize="23dp"
+                        android:textColor="#ffff171c" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NOTIFICACIONES"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#ff2367ff" />
+
+                <Button
+                    android:layout_width="171dp"
+                    android:layout_height="wrap_content"
+                    android:text="EDITA TU PERFIL"
+                    android:id="@+id/btnModificarPerfilUsuario"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:background="#5fcab0"
+                    android:textStyle="bold"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Pedro Perez"
+            android:id="@+id/NombreUsuario"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="45dp"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:text="NOTIFICACIONES GENERALES"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#5fcab0"
+            android:textAlignment="center"
+            android:textIsSelectable="true" />
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listNotificacionesUsuario"/>
+
+        </LinearLayout>
+
+
+
+
+    </FrameLayout>
